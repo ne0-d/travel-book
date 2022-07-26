@@ -14,6 +14,9 @@ nav{
   color: #fff;
 
 }
+.container{
+  margin: 0 auto;
+}
 .logo{
   width: 2.4rem;
   margin: 0.7rem;
@@ -24,6 +27,12 @@ nav{
 }
 
 /* card */
+.card--list{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
 .card{
   display: flex;
   padding: 2rem;
